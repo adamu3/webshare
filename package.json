@@ -1,0 +1,26 @@
+{
+  "name": "pageTransfer",
+  "version": "1.0.0",
+  "description": "WebCodeCamJS & WebCodeCamJQuery ===============================",
+  "main": "3d.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  
+  "keywords": [],
+  "author": "Said Abdulsalam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.0",
+    "twilio": "^3.57.0"
+  }
+}
